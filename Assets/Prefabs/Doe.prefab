@@ -350,10 +350,8 @@ GameObject:
   m_Component:
   - component: {fileID: 9070315423616168209}
   - component: {fileID: 1178803211949447830}
-  - component: {fileID: 7535821134862582431}
-  - component: {fileID: 1882629102319640566}
   - component: {fileID: 4485488561157194788}
-  - component: {fileID: 9110456520448803328}
+  - component: {fileID: 4649211568366067823}
   m_Layer: 0
   m_Name: Doe
   m_TagString: Untagged
@@ -407,31 +405,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &7535821134862582431
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2195202381272885945}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: acc8d7346c0044773af9f90ed1047f94, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 19
---- !u!114 &1882629102319640566
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2195202381272885945}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2c52ee72091692143869a36cdefe1fd7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &4485488561157194788
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -453,7 +426,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.2, y: 0.3783466, z: 0.47182617}
   m_Center: {x: 0, y: 0.18152888, z: 0.064086914}
---- !u!114 &9110456520448803328
+--- !u!114 &4649211568366067823
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -462,7 +435,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2195202381272885945}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 81e62e9a8a22fac478a927ce940e28f7, type: 3}
+  m_Script: {fileID: 11500000, guid: 34e0a80a766db4dff86e9fb2175a997b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &3101510882383782466
