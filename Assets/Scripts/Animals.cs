@@ -4,9 +4,11 @@ using UnityEngine;
 
 public class Animals : Units
 {
+    // INHERITANCE
+    // POLYMORPHISM
     void Start()
     {
-        speed = 19;
+        Speed = 19;
     }
 
     void OnTriggerEnter(Collider other)

@@ -4,19 +4,38 @@ using UnityEngine;
 
 public class Units : MonoBehaviour
 {
-    protected float speed;
     private float topBound = 30;
     private float lowerBound = -10;
 
+    // ENCAPSULATION
+    private float speed;
+    public float Speed {
+        get { return speed; }
+        protected set {
+            if (value < 0) {
+                Debug.LogError("Speed must be greater than zero.");
+                return;
+            } else {
+                speed = value;
+            }
+        }
+    }
+
     void Start()
     {
-        speed = 40;
+        Speed = 40;
     }
 
     void Update()
     {
-        transform.Translate(Vector3.forward * Time.deltaTime * speed);
+        MoveForward();
         DestroyOutOfBounds();
+    }
+
+    // ABSTRACTION
+    void MoveForward()
+    {
+        transform.Translate(Vector3.forward * Time.deltaTime * speed);
     }
 
     void DestroyOutOfBounds()
